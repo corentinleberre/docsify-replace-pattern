@@ -1,0 +1,13 @@
+{
+  "name": "docsify-replace-pattern",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Corentin Le Berre",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.60.0"
+  }
+}
