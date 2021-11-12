@@ -1,5 +1,5 @@
-import replaceOccurences from "./replace-pattern";
+import replacePatterns from "./replace-pattern";
 
 const docsify = window.$docsify;
 
-docsify?.plugins?.push(replaceOccurences(docsify?.replaceOccurences));
+docsify?.plugins?.push(replacePatterns(docsify?.replacePatterns));
