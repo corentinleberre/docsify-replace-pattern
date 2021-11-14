@@ -1,10 +1,18 @@
 {
   "name": "docsify-replace-pattern",
   "version": "1.0.0",
-  "description": "",
+  "description": "Docsify replace pattern",
+  "main": "dist/docsify-replace-pattern.js",
   "scripts": {
     "build": "rollup -c"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corentinleberre/docsify-replace-pattern.git"
+  },
+  "keywords": [
+    "Docsify"
+  ],
   "author": "Corentin Le Berre",
   "license": "ISC",
   "devDependencies": {
