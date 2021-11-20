@@ -1,6 +1,6 @@
 {
   "name": "docsify-replace-pattern",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Docsify replace pattern",
   "main": "dist/docsify-replace-pattern.js",
   "scripts": {
