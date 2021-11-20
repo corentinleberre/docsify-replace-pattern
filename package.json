@@ -4,8 +4,12 @@
   "description": "Docsify replace pattern",
   "main": "dist/docsify-replace-pattern.js",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "test": "echo \"No test specified\""
   },
+  "files": [
+    "dist/docsify-replace-pattern.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/corentinleberre/docsify-replace-pattern.git"
