@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Docsify-replace-pattern</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
+    />
+    <!-- Custom style-->
+    <link rel="stylesheet" href="./custom-style.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+        name: 'Docsify-replace-pattern',
+        replacePatterns: [
+          ['GET', '<span class="green">GET</span>'],
+          ['POST', '<span class="red">POST</span>']
+        ]
+    }
+    </script>
+    <!-- Docsify v4 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <!-- Import docsify-replace-pattern-->
+    <script type="module" src="plugin/main.js"></script>
+  </body>
+</html>
