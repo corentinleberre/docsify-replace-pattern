@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "description": "Docsify replace pattern",
   "type": "module",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/corentinleberre/docsify-replace-pattern.git"
