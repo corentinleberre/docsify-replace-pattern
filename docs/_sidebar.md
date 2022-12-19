@@ -1,2 +1,0 @@
-* [Readme](/)
-* [Usages](/usages.md)

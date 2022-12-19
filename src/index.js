@@ -1,5 +1,5 @@
-import replacePatterns from "./replace-pattern";
+import { replacePatterns } from './replace-pattern.js';
 
-const docsify = window.$docsify;
+const docsify = window.$docsify || {};
 
-docsify?.plugins?.push(replacePatterns(docsify?.replacePatterns));
+docsify.plugins = (docsify.plugins || []).concat(!!docsify.replacePatterns ? replacePatterns(...Object.values(docsify.replacePatterns)) : replacePatterns());

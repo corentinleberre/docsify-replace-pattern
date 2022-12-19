@@ -1,11 +1,11 @@
 {
   "name": "docsify-replace-pattern",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Docsify replace pattern",
   "main": "dist/docsify-replace-pattern.js",
   "scripts": {
-    "build": "rollup -c",
-    "test": "echo \"No test specified\""
+    "start": "docsify serve src",
+    "build": "rollup -c"
   },
   "files": [
     "dist/docsify-replace-pattern.js"
@@ -15,11 +15,13 @@
     "url": "git+https://github.com/corentinleberre/docsify-replace-pattern.git"
   },
   "keywords": [
-    "Docsify"
+    "Docsify",
+    "Mermaid"
   ],
   "author": "Corentin Le Berre",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
+    "docsify": "^4.12.2",
     "rollup": "^2.60.0",
     "rollup-plugin-terser": "^7.0.2"
   }
