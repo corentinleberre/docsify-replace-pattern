@@ -1,12 +1,14 @@
 # Docsify-replace-pattern
 
-Docsify-replace-pattern is a small docsify plugin which allows to replace text pattern in your docsify website. Useful if you want to style sections of your documentation without adding html to your markdown.
+A small docsify plugin which allows to replace text pattern in your docsify website. Useful if you want to style sections of your documentation without adding html/css to your markdown.
+
+👉 You can test the plugin [here](https://corentinleberre.github.io/docsify-replace-pattern/)
 
 ## How to use
 
 ```html
-<!-- Docsify-replace-pattern -->
-<script src="//unpkg.com/docsify-replace-pattern/dist/index.js"></script>
+  <!-- Import docsify-replace-pattern-->
+  <script src="//unpkg.com/docsify-replace-pattern/dist/docsify-replace-pattern.js"></script>
 ```
 
 Configurations :
@@ -26,3 +28,11 @@ Configurations :
     }
   </script>
 ```
+
+## License
+
+The code in this repository is licensed under the MIT License. See the LICENSE file for more information.
+
+## Contributing
+
+If you found a bug in my code or want to improve this plugin, please feel free to open a pull request or an issue. I am always looking for ways to improve my solutions and I appreciate any feedback or contributions.
